@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'mvn --version'
+				bat 'echo hello'
+                bat 'mvn --version'
             }
         }
     }
