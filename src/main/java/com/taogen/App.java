@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class App{
-    @GetMapping("/hello")
+    @GetMapping("/")
     public String hello()
     {
         return "hello! - " + System.currentTimeMillis();
