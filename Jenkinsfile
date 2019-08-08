@@ -1,5 +1,5 @@
 Jenkinsfile (Declarative Pipeline)
-pipeline {
+Pipeline {
     agent any 
 
     stages {
