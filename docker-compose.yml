@@ -11,3 +11,4 @@ services:
       - TZ=Asia/Shanghai
   redis:
     image: "redis:alpine"
+    command: redis-server --requirepass ${REDIS_AUTH}
